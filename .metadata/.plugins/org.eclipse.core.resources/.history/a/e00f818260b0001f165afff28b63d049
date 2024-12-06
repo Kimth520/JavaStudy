@@ -1,0 +1,10 @@
+package twoArray;
+
+public class ShallowTest {
+	public static void main(String[] args) {
+		int[] original = {1,2,3};
+		int[] shallowCopy = original;
+		
+		System.out.println("원본 배열 : " + Array.toString(original));
+	}
+}

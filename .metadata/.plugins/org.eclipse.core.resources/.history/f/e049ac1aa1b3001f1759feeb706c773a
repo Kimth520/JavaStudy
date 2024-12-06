@@ -1,0 +1,11 @@
+package methodOverride;
+
+public class Cat extends Animal{
+	//메서드 오버라이딩 alt + shift + s + v
+	@Override
+	void sound() {
+		// TODO Auto-generated method stub
+		super.sound();
+	}
+
+}

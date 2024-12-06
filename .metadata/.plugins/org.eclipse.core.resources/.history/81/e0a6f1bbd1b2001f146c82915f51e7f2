@@ -1,0 +1,7 @@
+package marvelTask;
+
+public class MarverlHeroMain {
+	public static void main(String[] args) {
+		//아이언맨과 헐크 객체를 만들고 정보 출력
+	}
+}

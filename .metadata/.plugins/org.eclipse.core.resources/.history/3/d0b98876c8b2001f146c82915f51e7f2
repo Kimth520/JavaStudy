@@ -1,0 +1,9 @@
+package constructorThis1;
+//9 : 가독성 향상
+class Car{
+	
+}
+
+public class Car {
+
+}

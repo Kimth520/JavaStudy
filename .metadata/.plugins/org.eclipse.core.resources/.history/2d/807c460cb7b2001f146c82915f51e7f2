@@ -1,0 +1,85 @@
+package constructorBasic1;
+
+class TvMain {
+   //필드
+   boolean power;   //기본값 false
+   int ch;
+   int vol;
+   String color;
+   String brand;
+   
+   //메소드
+   //전원 키고 끌수있는 메소드
+   //메소드명 : powerOnOff()
+   //리턴값x, 매개변수x
+   
+   void powerOnOff() {
+      //1) 전원이 꺼져있으면 키고, 켜져있으면 끄기
+      //2) 전원 상태 출력(삼항연산자)
+      power = !power;
+      System.out.println("전원 상태 : " + (power ? "켜짐" : "꺼짐"));   
+   }
+   
+   //볼륨 올리고 내릴 수 있는 메소드
+   //메소드명 : increaseVolume() , decreaseVolume()
+   //리턴값 x, 매개변수 x
+   
+   void increaseVolume() {
+      //1) 조건문(if~else문) power가 true라면 볼륨 +1 현재볼륨 출력
+      //   그게 아니라면 전원이 꺼져있습니다 출력
+      if(power) {
+         System.out.println("현재 볼륨 : " + vol);
+         if(vol >= 0 && vol <= 99) {
+            vol++;
+         }
+         System.out.println("올린 후 현재 볼륨 : " + vol);
+      }else {
+         System.out.println("전원을 먼저 켜주세요");
+      }
+      
+   }
+   
+   //채널 올리고 내릴 수 있는 메소드
+   //메소드명 : nextChannel(), previousChannel()
+   //리턴값 x, 매개변수 x
+   
+   void nextChannel() {
+      //전원이 켜져있을 때 채널 +1 현재채널 출력
+      //전원이 꺼져있을 때 전원켜줘 출력
+      if(power) {
+         System.out.println("현재 채널 : " + ch);
+         if(ch>=0 &&ch<=999) {
+         ch++;
+         System.out.println("올린 후 현재 채널 : " + ch);
+      }else {
+    	  System.out.println("전원을 먼저 켜주세요");
+         }
+      }
+   }
+   
+   void previousChannel() {
+	   if(power) {
+		   System.out.println("현재 채널 : " + ch);
+		   if(ch)
+	   }
+   }
+   
+}
+
+public class TvMain{
+	public static void main(String[] args) {
+		Tv myTv1 = new Tv();
+		Tv myTv2 = new Tv();
+		
+		//필드 초기화
+		myTv1.brand = "LG";
+		myTv1.color = "Black";
+		myTv1.ch = 10;
+		myTv1.vol = 5;
+		
+		System.out.println(myTv1);
+		
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package constructorOverloading;
+
+public class PersonName {
+	public static void main(String[] args) {
+		Person p1 = new Person{};
+	}
+}

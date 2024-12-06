@@ -1,0 +1,11 @@
+package array;
+
+public class ArrayTest01 {
+	public static void main(String[] args) {
+		
+		//1) 어떤 값이 들어갈지 모르나 몇 칸 만들지 알 때
+		
+		
+		
+	}
+}

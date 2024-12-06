@@ -1,0 +1,54 @@
+package constructorBasic1;
+
+public class TV {
+	//필드
+	boolean power; //기본값 false
+	int ch;
+	int vol;
+	String color;
+	String brand;
+	
+	void powerOnOff();
+	
+	//메소드
+	//전원 키고 끌수있는 메소드
+	//리턴x 매개변수 x
+	//if문으로 전원이 커져있을때 전원이
+	
+	void powerOnOff() {
+	if (power == false) {
+		power = true;
+		System.out.println("전원 on");
+	}else {
+		power = false;
+		System.out.println("전원 off");
+	}
+		
+	}
+	
+	//볼륨 올리고 내릴 수 있는 메소드
+	//볼륨 기본값 0
+	void intcreaseVolume() {
+		vol = vol++;
+	}
+	
+	void decreaseVolume() {
+		vol = vol++;
+	}
+	
+	
+	//채널 올리고 내릴 수 있는 메소드
+	
+	void nextCannel() {
+		ch = ch++;
+	}
+	
+	void previousChannel() {
+		ch = ch--;
+	}
+	
+}
+
+class TvMain{
+	
+}

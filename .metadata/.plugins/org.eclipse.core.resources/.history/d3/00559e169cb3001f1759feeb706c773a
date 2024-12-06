@@ -1,0 +1,20 @@
+package inheritanceConstructor2;
+
+public class Main {
+	public static void main(String[] args) {
+		//객체
+		Car c1 = new Car();
+		Car c2 = new Car("기아", "black",10000);
+		System.out.println(c1);
+		System.out.println(c2);
+		
+		c1.brand = "현대";
+		System.out.println(c1.brand);
+		
+		
+//		SuperCar sc = new SuperCar();
+		
+		
+	}
+	
+}

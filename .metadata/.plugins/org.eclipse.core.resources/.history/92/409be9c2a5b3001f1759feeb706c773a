@@ -1,0 +1,13 @@
+package accessTest;
+
+public class Parent {
+	//필드
+//	접근제한자 타입 변수
+	public String publicValue = "public";
+	protected String protectedValue = "protected";
+	String defaultvalue = "default";
+	private String privateValue = "private"
+	
+	//메소드
+// 접근제한자 리턴타입 메소드면(매개변수){}
+}

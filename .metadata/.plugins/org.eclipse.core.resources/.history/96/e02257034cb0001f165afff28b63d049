@@ -1,0 +1,12 @@
+package twoArray;
+
+public class TwoArrayTest01 {
+	public static void main(String[] args) {
+		//2차원 배열
+		int[][] ar1;
+		ar1 = new int[3][2];
+		
+		System.out.println(ar1);//heap에 있는 참조값
+		System.out.println(ar1[][]);
+	}
+}

@@ -1,0 +1,22 @@
+package task;
+
+public class ForTask01 {
+	public static void main(String[] args) {
+		//1. 1~100까지 출력 tab 키만큼 간격 띄우고 10마다 줄바꿈
+		//1		2	3	4	5 ...10
+		//11	12 ...			20
+		//91 ...				100까지
+		
+		//2. A~F출력
+		int a = 'A';
+				
+		//3. aBcDeFgHiJkLmNoPqRsTuVwXyZ 출력
+		int i = 0;
+		
+		//4. 1) 1부터 100까지 숫자 중 3과 5의 배수만 한 줄에 5개씩 띄어쓰기로 구분되도록 출력
+		// 	 2) 최종적으로 3의 배수 또는 5의 배수 숫자들의 합을 구하기
+		
+		
+		
+	}
+}

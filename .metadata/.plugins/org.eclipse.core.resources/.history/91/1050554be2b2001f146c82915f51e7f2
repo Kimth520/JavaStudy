@@ -1,0 +1,8 @@
+package Task;
+
+public class AnimalMain {
+	public static void main(String[] args) {
+		Animal dog = new Animal("멍멍이", 3, "개");
+		
+	}
+}

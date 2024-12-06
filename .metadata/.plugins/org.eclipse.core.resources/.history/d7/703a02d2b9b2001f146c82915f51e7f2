@@ -1,0 +1,18 @@
+package constructorBasic2;
+//기본 생성자 확인
+class Student{
+	String name;
+	int age;
+	
+	//기본생성자
+	public Student() {
+		
+	}
+}
+
+public class StudentMain {
+	public static void main(String[] args) {
+		Student st1 = new Student();
+		System.out.println(st1);
+	}
+}

@@ -1,0 +1,5 @@
+Npackage methodOverride;
+
+public class Cat extends Animal{
+
+}
