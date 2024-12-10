@@ -1,8 +1,0 @@
-package inheritanceTest;
-
-public class Tv2 {
-	
-	void netflix() {
-		System.out.println();
-	}
-}

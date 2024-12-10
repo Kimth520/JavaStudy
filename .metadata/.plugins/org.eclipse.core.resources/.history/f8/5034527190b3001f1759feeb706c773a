@@ -1,8 +1,0 @@
-package inheritanceTest;
-//상속 기초
-public class TvMain {
-	public static void main(String[] args) {
-		Tv tv1 = new Tv();
-		System.out.println(tv1);
-	}
-}

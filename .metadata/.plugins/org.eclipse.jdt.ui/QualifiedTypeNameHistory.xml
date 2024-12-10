@@ -4,4 +4,7 @@
     <fullyQualifiedTypeName name="javax.annotation.processing.SupportedSourceVersion"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="accessTest.Parent"/>
+    <fullyQualifiedTypeName name="ex01.Main"/>
+    <fullyQualifiedTypeName name="accessModifier.Person"/>
 </qualifiedTypeNameHistroy>

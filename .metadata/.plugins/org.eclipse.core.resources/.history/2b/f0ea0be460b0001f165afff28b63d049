@@ -1,7 +1,0 @@
-package twoArray;
-
-public class DeepTest {
-	public static void main(String[] args) {
-		
-	}
-}

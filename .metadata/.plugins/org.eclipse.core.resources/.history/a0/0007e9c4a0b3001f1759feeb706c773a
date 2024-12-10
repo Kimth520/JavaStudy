@@ -1,5 +1,0 @@
-package methodOverride;
-
-public class Dog extends Animal {
-
-}

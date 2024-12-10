@@ -1,7 +1,0 @@
-package staticTest;
-
-public class MyClassB {
-	public static void main(String[] args) {
-		
-	}
-}

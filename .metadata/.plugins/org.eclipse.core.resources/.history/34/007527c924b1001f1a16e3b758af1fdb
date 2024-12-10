@@ -1,7 +1,0 @@
-package method;
-//메소드 사용이유2 : 높은 재사용성
-public class MethodBasic02 {
-	public static void main(String[] args) {
-		
-	}
-}

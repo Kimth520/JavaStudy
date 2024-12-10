@@ -1,8 +1,0 @@
-package inheritanceConstructor2;
-
-public class Main {
-	//객체
-	Car c = new Car();
-	SuperCar sc = new SuperCar();
-	
-}

@@ -1,8 +1,0 @@
-package inheritanceConstructor;
-
-public class Main {
-	public static void main(String[] args) {
-		Parents P = new Parents();
-		Child C = new Child();
-	}
-}

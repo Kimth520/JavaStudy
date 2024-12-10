@@ -1,9 +1,0 @@
-package array;
-//배열의 저장공간과 값
-public class ArrayTest03 {
-	public static void main(String[] args) {
-		int[] arData = {4, 3, 2, 5};
-		//정수형 배열 arData에 4, 3 ,2 5값 초기화
-		System.out.println(arData);
-	}
-}
