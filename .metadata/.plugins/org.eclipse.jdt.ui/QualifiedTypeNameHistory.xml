@@ -7,4 +7,10 @@
     <fullyQualifiedTypeName name="accessTest.Parent"/>
     <fullyQualifiedTypeName name="ex01.Main"/>
     <fullyQualifiedTypeName name="accessModifier.Person"/>
+    <fullyQualifiedTypeName name="inhertance.access1.publicA"/>
+    <fullyQualifiedTypeName name="innerTest.Outer.Inner"/>
+    <fullyQualifiedTypeName name="lambda2.FunctionalInter2"/>
+    <fullyQualifiedTypeName name="lambda2.FunctionalInter3"/>
+    <fullyQualifiedTypeName name="lambda2.FunctionalInter4"/>
+    <fullyQualifiedTypeName name="lambdaTask.MultipleInter"/>
 </qualifiedTypeNameHistroy>
